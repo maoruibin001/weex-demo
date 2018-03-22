@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+
+<script>
+    $.ajax({
+        url: 'http://localhost:8089/',
+        type: 'post',
+        data: {'name':'maoruibin'},
+        success: function(response) {
+            debugger;
+        },
+        error: function() {
+            debugger;
+        }
+    })
+</script>
+</body>
+</html>
